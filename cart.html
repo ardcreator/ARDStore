@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Cart</title>
+
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+  </head>
+  <body>
+
+    <!-- Header -->
+
+    <header class="header" id="header">
+
+      <!-- Top Nav -->
+      <div class="top-nav">
+        <div class="container d-flex">
+          <p>Order Online Or Call Us: (+62) 85397653331</p>
+          <ul class="d-flex">
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="index.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="" class="logo"><h1>ARDStore</h1></a>
+      
+        <!-- Navbar -->
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">Product</a>
+            </li>
+            <li class="nav-item">
+            <a href="index.html" class="nav-link">Category</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Featured</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Contact Us</a>
+            </li>
+
+        <!-- Responsive Navbar Notif -->
+            <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">10</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">5</span>
+            </a>
+          </li>
+          </ul>
+
+        <!-- Navbar Notif -->
+          <div class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">10</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">5</span>
+            </a>
+          </div>
+
+        <!-- Rensponsif Navbar Notif Pindah Ke Kiri -->
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </div>
+      </div>
+
+
+
+    <!-- Cart Items -->
+
+    <div class="container cart">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product-2.jpg" alt="" />
+              <div>
+                <p>GUITAR CLASSIC</p>
+                <span>Price: Rp399.000</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>Rp399.000</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product-3.jpg" alt="" />
+              <div>
+                <p>UKULELE</p>
+                <span>Price: Rp590.000</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>Rp590.000</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product-4.jpg" alt="" />
+              <div>
+                <p>PIANO KEYBOARDS</p>
+                <span>Price: <s>Rp2.560.000</s> Rp2.300.000</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>Rp2.300.000</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product-6.jpg" alt="" />
+              <div>
+                <p>MIDI KEYBOARD</p>
+                <span>Price: Rp1.739.000</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>Rp1.739.000</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product-8.jpg" alt="" />
+              <div>
+                <p>TRUMPET</p>
+                <span>Price: Rp8.345.000</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>Rp8.345.000</td>
+        </tr>
+      </table>
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>Rp13.373.999</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>Rp17.001</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>Rp13.390.000</td>
+          </tr>
+        </table>
+        <a href="#" class="checkout btn">Checkout</a>
+      </div>
+    </div>
+
+
+
+    <!-- Latest Products -->
+
+    <section class="section featured">
+      <div class="top container">
+        <h1>Latest Products</h1>
+        <a href="#" class="view-more">View more</a>
+      </div>
+      <div class="product-center container">
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./images/product-1.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>ELECTRIC GUITAR</span>
+            <a href="productDetails.html">YAMAHA GUITAR ELECTRIC PAC-112V YNS PACIFICA 112V YNS</a>
+            <h4>Rp2.965.000</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./images/product-5.jpg" alt="" />
+            </a>
+            <span class="discount">5%</span>
+          </div>
+          <div class="product-info">
+            <span>GRAND PIANO</span>
+            <a href="">KAWAI GL-10 Grand Piano / GL10 GL 10 - ebony polished</a>
+            <h4> <s>Rp64.500.000</s> Rp61.275.000</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./images/product-7.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>SAXOPHONE</span>
+            <a href="">YAMAHA ALTO SAXOPHONE - YAS 480</a>
+            <h4> <s>Rp17.695.000</s> Rp15.040.750</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./images/product-2.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>GUITAR CLASSIC</span>
+            <a href="">Gitar Akustik C370 Classic Nilon Nylon Pemula Bekualitas Murah</a>
+            <h4>Rp399.000</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMATION</h4>
+          <a href="index.html">About us</a>
+          <a href="index.html">Contact Us</a>
+          <a href="index.html">Term & Conditions</a>
+          <a href="index.html">Shipping Guide</a>
+        </div>
+        <div class="col d-flex">
+          <h4>USEFUL LINK</h4>
+          <a href="index.html">Online Store</a>
+          <a href="index.html">Customer Services</a>
+          <a href="index.html">Promotion</a>
+          <a href="index.html">Top Brands</a>
+        </div>
+        <div class="col d-flex">
+          <span><i class='bx bxl-facebook-square'></i></span>
+          <span><i class='bx bxl-instagram-alt' ></i></span>
+          <span><i class='bx bxl-github' ></i></span>
+          <span><i class='bx bxl-twitter' ></i></span>
+          <span><i class='bx bxl-pinterest' ></i></span>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <!-- Script Responsive Header -->
+    <script src="./js/index.js"></script>
+
+  </body>
+</html>
